@@ -4,6 +4,9 @@
 import sys
 from importlib import metadata as importlib_metadata
 
+import sec_edger_harverster.SecEdgerHarvester as SecEdgerHarvester
+from harvest_insurance_contract import harverst_insurance_contract
+
 
 def get_version() -> str:
     try:
